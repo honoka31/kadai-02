@@ -4,7 +4,7 @@ let isPrime = true
 for (let i = 2; i <= n - 1 ; i = i + 1 ) {
     if(n % i === 0){
        // console.log('素数ではない')
-       isPrime = fales
+       isPrime = false
         break
 }
 }
